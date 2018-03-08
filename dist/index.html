@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Game</title>
+    <link rel="stylesheet" type="text/css" href="./stylesheet/style.css" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="content">
+            <div class="name-selecter">
+                <h2>Name:</h2>
+                <input class="selecter" id="butterfly-name" type="text" placeholder="Name">
+            </div>
+            <div class="wing-selecter">
+                <h2>Choose wing</h2>
+                <div class="selecter">
+                    <button class="left-button" id="wing-left">LEFT</button>
+                    <div class="current" id='current-wing'>Normal</div>
+                    <button class="right-button" id="wing-right">RIGHT</button>
+                </div>
+            </div>
+            <div class="hat-selecter">
+                <h2>Choose hat</h2>
+                <div class="selecter">
+                    <button class="left-button" id="hat-left">LEFT</button>
+                    <div class="current" id='current-hat'>Normal</div>
+                    <button class="right-button" id="hat-right">RIGHT</button>
+                </div>
+            </div>
+            <button class="generate" id="generate">Generate</button>
+            <button id="fly">Fly</button>
+            <ul id="list">
+            </ul>
+
+        </div>
+    </div>
+    <script src="js/main.js" type="text/javascript"></script>
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding:0;
+}
+.wrapper{
+    text-align: center;
+}
+.selecter{
+    margin-top:10px;
+}
+.content{
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.left-button{
+    display: inline-block;
+}
+
+.right-button{
+    display: inline-block;
+}
+
+.current{
+    width:200px;
+    display: inline-block;
+}
+
+.wing-selecter{
+    margin-top:40px;
+}
+
+.name-selecter{
+    margin-top:40px;
+}
+
+.hat-selecter{
+    margin-top:40px;
+}
+
+button{
+    padding:5px;
+}
+.generate{
+    margin-top:20px;
+}
